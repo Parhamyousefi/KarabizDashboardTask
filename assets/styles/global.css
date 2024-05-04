@@ -1,0 +1,131 @@
+* {
+  font-family: "B Yekan";
+}
+.profilepic {
+  width: 3rem;
+  height: 3rem;
+}
+.profileTitle{
+  font-size: .85rem;
+}
+.width-height-1 {
+  width: 2rem;
+  height: 2rem;
+}
+.challengesign {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.hamburgerMenu {
+  outline: none;
+  border: none;
+}
+.hamburgerMenu:active {
+  border: none !important;
+}
+.bg-general {
+  background-color: #272c33;
+}
+.bg-orange {
+  background-color: #ff6700;
+}
+#sideBar {
+  height: 90vh;
+  font-size: 0.8rem;
+  position: fixed !important;
+  right: 0.5rem;
+  z-index: 50;
+  overflow: scroll;
+}
+#sideBar::-webkit-scrollbar {
+  width: 5px;
+}
+
+#sideBar::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+#sideBar::-webkit-scrollbar-thumb {
+  background: #ff6700;
+  border-radius: 10px;
+}
+.focused {
+  background-color: #333941;
+  color: #ff6700 !important;
+}
+.focusedSvg {
+  background-color: #ff6700;
+  -webkit-mask: url(../images/layer.svg) no-repeat center;
+  mask: url(../images/layer.svg) no-repeat center;
+}
+.searchBar {
+  transition: 0.2s all ease;
+}
+.searchBarContainer {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.7rem;
+}
+.searchBar:focus {
+  outline: 5px solid #ff6700;
+}
+.courseCard {
+  position: relative;
+  padding: 0;
+  width: 49%;
+}
+.courseTitle {
+  color: #ff6700;
+}
+.courseSign {
+  width: 3rem;
+}
+.courseDetail {
+  font-size: 0.9rem;
+}
+.coursebuttons {
+  font-size: 0.9rem;
+}
+.coursePic {
+  transition: 0.2s all ease;
+  width: 100%;
+}
+.coursePic:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+.coursePrice {
+  position: absolute;
+  top: 0.3rem;
+  right: 1rem;
+  font-size: 0.7rem;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ff6700;
+  border-radius: 10px;
+}
+
+
+@font-face {
+  font-family: "B Yekan";
+  src: url("../Fonts/BYekan/BYekan.eot");
+  src: url("../Fonts/BYekan/BYekan.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/BYekan/BYekan.woff2") format("woff2"),
+    url("../Fonts/BYekan/BYekan.woff") format("woff"),
+    url("../Fonts/BYekan/BYekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
