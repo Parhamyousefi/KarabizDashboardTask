@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="./assets/styles/global.css" />
     <title>Karabiz Panel</title>
   </head>
-  <body class="bg-secondary">
+  <body class="bg-main">
     <!-- navbar -->
     <nav class="navbar sticky-top bg-general px-2 py-2">
-      <div class="d-flex col-5">
+      <div class="d-flex col-8">
         <div class="col-md-3 col-5 d-flex align-items-center">
           <p class="m-0 text-light profileTitle">
             <i class="fa fa-angle-left" aria-hidden="true"></i> حساب کاربری
@@ -85,7 +85,8 @@
         </div>
       </div>
       <div>
-        <img src="./assets/images/karabizz-logo.svg" alt="Logo" srcset="" />
+        <img id="Logo" src="./assets/images/karabizz-logo.svg" alt="Logo" srcset="" class="d-none d-lg-flex"/>
+        <img id="Logo" src="./assets/images/karabizLogo.svg" alt="Logo" srcset="" class="d-inline d-lg-none">
         <button
           class="navbar-toggler btn border-0 d-inline d-md-none hamburgerMenu"
           data-bs-toggle="collapse"
@@ -98,9 +99,9 @@
         </button>
       </div>
     </nav>
-    <div class="container-fluid d-flex gap-2 overflow-hidden">
+    <div class="container d-flex gap-2 overflow-hidden">
       <section id="main" class="col-12 col-md-11 my-3">
-        <div class="col-3 searchBarContainer d-flex">
+        <div class="col-12 col-md-4 justify-content-md-center searchBarContainer d-flex">
           <input
             type="text"
             name="searchBar"
@@ -121,10 +122,10 @@
           </div>
         </div>
         <!-- Course List -->
-        <section class="row">
+        <section class="row justify-content-center">
           <div class="row col-lg-6 col-md-6 col-sm-12 gap-1">
             <div
-              class="courseCard bg-general rounded-4 overflow-hidden col-lg-6 col-md-6 col-sm-12"
+              class="courseCard bg-general rounded-4 overflow-hidden col-lg-6 col-12"
             >
               <img
                 src="./assets/images/028edee2-32df-4b91-90f3-cc4036165029.jpg"
@@ -312,7 +313,6 @@
                 class="img-fluid coursePic"
                 alt="course pic"
               />
-              
               <div class="p-2">
                 <p class="courseTitle text-end fw-bolder m-2">
                   <i class="fa fa-arrow-left" aria-hidden="true"></i> راه اندازی
